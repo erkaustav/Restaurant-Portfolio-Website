@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: cursive;
+      
+    }
+    body{
+      background-image: url("background.jpg");
+      text-align: center;
+    }
+    header{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px 154px;
+      background-color: #303030;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 99;
+    }
+    .navigation a{
+      position: relative;
+      font-size: 1.1em;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 25px;
+    }
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    }
+    .desp{
+      margin-left: 10px;
+    }
+    .logo img{
+      margin-left: -130px;
+    }
+    .contact-info{
+      line-height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2 class="logo"><img src="logo.png"></h2>
+    <nav  class="navigation">
+      <a href="food.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <div class="desp">
+    <br>
+  <br>
+  <br>
+  <br>
+  <div id="contact">
+    <h2>Contact Us</h2>
+    <br>
+    <p>Thank you for your interest in our restaurant. We would love to hear from you! Please feel free to reach out to us using the contact information below:</p>
+    <br>
+    <br>
+    <div class="contact-info">
+        <h3>Contact Information</h3>
+        <ul>
+            <li><strong>Email:</strong> info@restaurant.com</li>
+            <li><strong>Phone:</strong> 123-456-7890</li>
+            <li><strong>Address:</strong> 123 Main Street, City, State, ZIP</li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <div class="contact-form">
+        <h3>Send us a Message</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>  
+  </div>
+  <footer>
+    &copy; 2023 Restaurant Portfolio. All rights reserved.
+  </footer>
+
+</body>
+</html>
